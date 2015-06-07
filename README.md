@@ -10,5 +10,5 @@ This package is a browserify plugin that makes machinepacks work when they are r
 
 ## License
 
-MIT &copy; 2015 Mike McNeil
+MIT &copy; 2015 Mike McNeil, The Treeline Company
 

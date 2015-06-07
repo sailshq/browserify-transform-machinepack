@@ -11,7 +11,7 @@
     "machinepack",
     "treeline"
   ],
-  "author": "",
+  "author": "The Treeline Company",
   "license": "MIT",
   "dependencies": {
     "lodash": "^3.8.0"
