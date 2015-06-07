@@ -30,7 +30,7 @@ module.exports = transformTools.makeStringTransform('machinepack', {}, function 
   // Machine.pack() (because browserify doesn't know how to handle
   // dynamic requires).
   var shimCode = _.reduce(packMetadata.machines, function (memo, machineIdentity){
-    var line = util.format('  \'%s\': Machine.build( require(\'%s\') ),\n', machineIdentity, './'+Path.join(packMetadata.machineDir,machineIdentity));
+    var line = util.format('module.exports[Machine.getMethodName(\'%s\')] = Machine.build( require(\'%s\') );\n', machineIdentity, './'+Path.join(packMetadata.machineDir,machineIdentity));
     memo += line;
     return memo;
   },
@@ -40,7 +40,7 @@ module.exports = transformTools.makeStringTransform('machinepack', {}, function 
   '// replaced with explicit requires of each machine herein.\n'+
   'var Machine = require(\'machine\');\n'+
   '\n'+
-  'module.exports = {\n');
+  'module.exports = {};\n');
   shimCode += '};\n';
   // console.log('\n------\n',shimCode,'\n\n');
 
