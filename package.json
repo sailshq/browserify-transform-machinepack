@@ -1,6 +1,6 @@
 {
   "name": "browserify-transform-machinepack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A browserify transform that makes machinepacks work when they are required from a browserified module (or each other).",
   "scripts": {},
   "keywords": [
