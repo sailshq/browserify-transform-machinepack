@@ -41,7 +41,7 @@ module.exports = transformTools.makeStringTransform('machinepack', {}, function 
   'var Machine = require(\'machine\');\n'+
   '\n'+
   'module.exports = {};\n');
-  shimCode += '};\n';
+  shimCode += '\n';
   // console.log('\n------\n',shimCode,'\n\n');
 
   return done(null, shimCode);
