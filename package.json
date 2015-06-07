@@ -1,11 +1,11 @@
 {
-  "name": "browserify-transform-machinepack",
+  "name": "browserify-plugin-machinepack",
   "version": "0.1.0",
-  "description": "A browserify transform that makes machinepacks work when they are required from a browserified module (or each other).",
+  "description": "A browserify plugin that makes machinepacks work when they are required from a browserified module (or each other).",
   "scripts": {
   },
   "keywords": [
-    "browserify-transform",
+    "browserify-plugin",
     "browserify",
     "machine",
     "machinepack",
@@ -18,6 +18,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:treelinehq/browserify-transform-machinepack.git"
+    "url": "git@github.com:treelinehq/browserify-plugin-machinepack.git"
   }
 }
