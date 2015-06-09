@@ -8,9 +8,7 @@
 This package is a browserify transform that makes machinepacks work when they are required from a browserified module (or each other).
 
 
-### In your machinepack
-
-### In your machinepack
+### Usage
 
 To make a machinepack work with browserify, first run add this package as a depenendency:
 
