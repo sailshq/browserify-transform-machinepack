@@ -5,7 +5,7 @@
 var fs = require('fs');
 var path = require('path');
 var util = require('util');
-var _ = require('lodash');
+var _ = require('@sailshq/lodash');
 var transformTools = require('browserify-transform-tools');
 
 

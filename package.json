@@ -14,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "browserify-transform-tools": "^1.4.2",
-    "lodash": "^3.8.0"
+    "@sailshq/lodash": "^3.10.3"
   },
   "repository": {
     "type": "git",
